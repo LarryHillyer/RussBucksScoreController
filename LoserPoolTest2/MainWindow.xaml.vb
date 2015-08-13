@@ -704,7 +704,7 @@ Public Class WaitUntilSeasonStart
                 _dbApp1 = New ApplicationDbContext
             End SyncLock
 
-            Dim filename = "PythonScoreScrape.bat"
+            'Dim filename = "PythonScoreScrape.bat"
 
             Dim SeasonHasEnded As Boolean = False
 
@@ -790,19 +790,32 @@ Public Class WaitUntilSeasonStart
                                 Next
 
                                 Dim league = ""
+                                Dim filename = ""
+                                Dim GamesAreFinished As Boolean = False
+
                                 If Sport = "baseball" Then
                                     league = "MLB"
+                                    filename = "PythonScoreScrape.bat"
+
                                 ElseIf Sport = "football" Then
                                     league = "NFL"
+                                    filename = "NFLPythonScoreScrape.bat"
                                 End If
-
-                                Dim GamesAreFinished As Boolean = False
 
                                 While GamesAreFinished = False
 
-                                    File.Delete(".\ScrapedFiles\" + filename)
-                                    Thread.Sleep(2000)
-                                    File.AppendAllText(".\ScrapedFiles\" + filename, "C:\Python27\python " + ".\ScrapedFiles\NBCScoreScrape.py " + " " + league + " " + Me.Sport + " " + startGameDate + " " + scrapedFilesFolder)
+                                    If Sport = "baseball" Then
+                                        File.Delete(".\ScrapedFiles\" + filename)
+                                        Thread.Sleep(2000)
+                                        File.AppendAllText(".\ScrapedFiles\" + filename, "C:\Python27\python " + ".\ScrapedFiles\NBCScoreScrape.py " + " " + league + " " + Me.Sport + " " + startGameDate + " " + scrapedFilesFolder)
+
+                                    ElseIf Sport = "football" Then
+                                        File.Delete(".\ScrapedFiles\" + filename)
+                                        Thread.Sleep(2000)
+                                        File.AppendAllText(".\ScrapedFiles\" + filename, "C:\Python27\python " + ".\ScrapedFiles\NFLScoreScrape1.py " + Me.Sport + " " + scrapedFilesFolder)
+
+                                    End If
+
 
                                     Dim cnt1 = 1
 RestartScrape:
