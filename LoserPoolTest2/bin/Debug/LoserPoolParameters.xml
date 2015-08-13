@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sports>
+  <Sport sport="baseball">
+    <timeIncrement>2</timeIncrement>
+    <rootfolder>C:\Users\Larry\Documents\GitHub\Baseball-Test\LoserPool1_\LoserPool1</rootfolder>
+    <driverRootFolder>C:\Users\Larry\Documents\GitHub\Baseball-TestDriver</driverRootFolder>
+  </Sport>
+  <Sport sport="football">
+    <timeIncrement>1</timeIncrement>
+    <rootfolder>C:\Users\Larry\Documents\GitHub\Football-Test\LoserPool1_\LoserPool1</rootfolder>
+    <driverRootFolder>C:\Users\Larry\Documents\GitHub\Football-TestDriver</driverRootFolder>
+  </Sport>
+</Sports>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<score filedate="06/27/15" filetime="09:17 AM" TimePeriod="Day1">
+  <game awayteam="Indians" hometeam="Orioles">
+    <awayscore>3</awayscore>
+    <homescore>4</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Nationals" hometeam="Phillies">
+    <awayscore>5</awayscore>
+    <homescore>2</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Braves" hometeam="Pirates">
+    <awayscore>2</awayscore>
+    <homescore>3</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Rangers" hometeam="Blue Jays">
+    <awayscore>2</awayscore>
+    <homescore>12</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="White Sox" hometeam="Tigers">
+    <awayscore>4</awayscore>
+    <homescore>5</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Reds" hometeam="Mets">
+    <awayscore>1</awayscore>
+    <homescore>2</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Dodgers" hometeam="Marlins">
+    <awayscore>7</awayscore>
+    <homescore>1</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Red Sox" hometeam="Rays">
+    <awayscore>4</awayscore>
+    <homescore>3</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Twins" hometeam="Brewers">
+    <awayscore>4</awayscore>
+    <homescore>10</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Yankees" hometeam="Astros">
+    <awayscore>3</awayscore>
+    <homescore>2</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Cubs" hometeam="Cardinals">
+    <awayscore>2</awayscore>
+    <homescore>3</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Mariners" hometeam="Angels">
+    <awayscore>3</awayscore>
+    <homescore>1</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Royals" hometeam="Athletics">
+    <awayscore>5</awayscore>
+    <homescore>2</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Diamondbacks" hometeam="Padres">
+    <awayscore>2</awayscore>
+    <homescore>4</homescore>
+    <gametime>final</gametime>
+  </game>
+  <game awayteam="Rockies" hometeam="Giants">
+    <awayscore>8</awayscore>
+    <homescore>6</homescore>
+    <gametime>final</gametime>
+  </game>
+</score>
